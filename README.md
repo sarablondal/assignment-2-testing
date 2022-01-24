@@ -8,6 +8,9 @@ Since the library is abstracted the tests should still pass using the new librar
 
 Another task for you is to add type definition to the `dateUtils.ts` file. Please note that TypeScript is already set up, all you should need to do is to introduce types.
 
+
+**Group size:** 1 person
+
 -----
 
 ## Prerequisite
