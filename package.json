@@ -5,10 +5,11 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "test:watch": "jest --watch"
+    "test:watch": "jest --watch",
+    "test:watch:": "jest --watchAll"
   },
   "keywords": [],
-  "author": "",
+  "author": "Sara Helena",
   "license": "ISC",
   "dependencies": {
     "@types/jest": "^27.4.0",
