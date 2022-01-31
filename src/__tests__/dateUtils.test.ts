@@ -6,7 +6,7 @@ const date_type = DATE_UNIT_TYPES;
 describe("Get current year", () => {
     it('should return current year', () => {
       const result = getCurrentYear();
-      expect(result).toBe(2022);
+      expect(result).toBe(new Date().getFullYear());
      })
 });
 
