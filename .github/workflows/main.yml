@@ -1,6 +1,8 @@
 name: Github Actions - assignment 3
 on: [push]
 jobs:
+  build:
+    runs-on: ubuntu-latest
     steps:     
       - name: List files in the repository
         run: |
