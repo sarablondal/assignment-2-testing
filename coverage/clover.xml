@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1644781901706" clover="3.2.0">
-  <project timestamp="1644781901707" name="All files">
+<coverage generated="1644782334809" clover="3.2.0">
+  <project timestamp="1644782334812" name="All files">
     <metrics statements="19" coveredstatements="19" conditionals="3" coveredconditionals="3" methods="6" coveredmethods="6" elements="28" coveredelements="28" complexity="0" loc="19" ncloc="19" packages="1" files="2" classes="2"/>
     <file name="constants.ts" path="C:\Users\Lenovo\Desktop\Vor 2022\Viðhald Hugbúnaðar\assignment-2-testing\src\constants.ts">
       <metrics statements="7" coveredstatements="7" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
