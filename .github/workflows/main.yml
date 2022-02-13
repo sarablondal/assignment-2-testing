@@ -16,7 +16,7 @@ jobs:
         uses: rutajdash/prettier-cli-action@v1.0.0
       # Testing with coverage
       - name: Test with report
-        run: npm run jest -- coverage
+        run: npm run test-report
         
       #job status
       - run: echo "This job's status is ${{ job.status }}."

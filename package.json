@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
+    "test-report": "react-scripts test --coverage",
     "test:watch": "jest --watch",
     "test:watch:": "jest --watchAll"
   },
