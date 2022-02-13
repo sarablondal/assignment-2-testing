@@ -1,0 +1,18 @@
+name: Github Actions - assignment 3
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:     
+      - name: List files in the repository
+        run: |
+          ls ${{ github.workspace }}
+      # Typecheck
+      - name: TSC actions
+        uses: stepek/tsc-action@1.0.0
+      #Prettier check
+      - name: Prettier Check
+        uses: rutajdash/prettier-cli-action@v1.0.0
+        
+      #job status
+      - run: echo "This job's status is ${{ job.status }}."
