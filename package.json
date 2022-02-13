@@ -13,7 +13,6 @@
   "author": "Sara Helena",
   "license": "ISC",
   "dependencies": {
-    "@actions/core": "^1.6.0",
     "@types/jest": "^27.4.0",
     "date-fns": "^2.28.0",
     "jest": "^27.4.7",
