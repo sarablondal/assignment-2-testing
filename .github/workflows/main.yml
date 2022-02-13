@@ -9,7 +9,8 @@ jobs:
           ls ${{ github.workspace }}
       # Typecheck
       - name: TSC actions
-        run: npx tsc --noEmit
+        run: npm install
+            npx tsc --noEmit
       #Prettier check
       - name: Prettier Check
         uses: rutajdash/prettier-cli-action@v1.0.0
