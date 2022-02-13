@@ -10,23 +10,24 @@ jobs:
           with:
             node-version: ${{ matrix.node-version }}
             cache: "npm"
-          - run: npm ci
-          # Stuff  
-            - name: List files in the repository
-            run: |
-              ls ${{ github.workspace }}
-          # Typecheck
-          - name: TSC actions
-            run: npx tsc --noEmit
-          #Prettier check
-          - name: Prettier Check
-            uses: rutajdash/prettier-cli-action@v1.0.0
-          # Test without report
-          - name: Test without report
-            run: npm run test
-          # Testing with coverage
-          - name: Test with report
-            run: npm run test-coverage
-            
-          #job status
-          - run: echo "This job's status is ${{ job.status }}."
+        - name: run stuff 
+          run: npm ci
+        # Stuff  
+        - name: List files in the repository
+          run: |
+            ls ${{ github.workspace }}
+        # Typecheck
+        - name: TSC actions
+          run: npx tsc --noEmit
+        #Prettier check
+        - name: Prettier Check
+          uses: rutajdash/prettier-cli-action@v1.0.0
+        # Test without report
+        - name: Test without report
+          run: npm run test
+        # Testing with coverage
+        - name: Test with report
+          run: npm run test-coverage
+
+        #job status
+        - run: echo "This job's status is ${{ job.status }}."
