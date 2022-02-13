@@ -4,13 +4,14 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-          # Set up           
+        - uses: actions/checkout@v2     
         - name: Use Node.js ${{ matrix.node-version }}
           uses: actions/setup-node@v2
           with:
             node-version: ${{ matrix.node-version }}
             cache: "npm"
           - run: npm ci
+          # Stuff  
             - name: List files in the repository
             run: |
               ls ${{ github.workspace }}
@@ -29,5 +30,3 @@ jobs:
             
           #job status
           - run: echo "This job's status is ${{ job.status }}."
-          # end status
-          - uses: actions/checkout@v2   
