@@ -7,7 +7,7 @@ jobs:
           ls ${{ github.workspace }}
       # Typecheck
       - name: TSC actions
-        uses: stepek/tsc-action@1.0.0
+        run: npx tsc --noEmit
       #Prettier check
       - name: Prettier Check
         uses: rutajdash/prettier-cli-action@v1.0.0
