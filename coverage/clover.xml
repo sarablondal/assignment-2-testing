@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1644781901706" clover="3.2.0">
+  <project timestamp="1644781901707" name="All files">
+    <metrics statements="19" coveredstatements="19" conditionals="3" coveredconditionals="3" methods="6" coveredmethods="6" elements="28" coveredelements="28" complexity="0" loc="19" ncloc="19" packages="1" files="2" classes="2"/>
+    <file name="constants.ts" path="C:\Users\Lenovo\Desktop\Vor 2022\Viðhald Hugbúnaðar\assignment-2-testing\src\constants.ts">
+      <metrics statements="7" coveredstatements="7" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <line num="1" count="1" type="cond" truecount="2" falsecount="0"/>
+      <line num="2" count="1" type="stmt"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="4" count="1" type="stmt"/>
+      <line num="5" count="1" type="stmt"/>
+      <line num="6" count="1" type="stmt"/>
+      <line num="7" count="1" type="stmt"/>
+    </file>
+    <file name="dateUtils.ts" path="C:\Users\Lenovo\Desktop\Vor 2022\Viðhald Hugbúnaðar\assignment-2-testing\src\dateUtils.ts">
+      <metrics statements="12" coveredstatements="12" conditionals="1" coveredconditionals="1" methods="5" coveredmethods="5"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="2" count="1" type="stmt"/>
+      <line num="4" count="1" type="stmt"/>
+      <line num="5" count="1" type="stmt"/>
+      <line num="8" count="1" type="cond" truecount="1" falsecount="0"/>
+      <line num="9" count="3" type="stmt"/>
+      <line num="12" count="1" type="stmt"/>
+      <line num="13" count="2" type="stmt"/>
+      <line num="16" count="1" type="stmt"/>
+      <line num="17" count="2" type="stmt"/>
+      <line num="20" count="1" type="stmt"/>
+      <line num="21" count="2" type="stmt"/>
+    </file>
+  </project>
+</coverage>
